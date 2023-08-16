@@ -3,6 +3,8 @@ This project is a team collaboration for the end of the quarter at Holberton Sch
 
 ## Table of Contents
 (#introduction)
+(#What is a shell)
+(#How does it work?)
 (#getting-started)
 (#usage)
 
@@ -10,6 +12,21 @@ This project is a team collaboration for the end of the quarter at Holberton Sch
 ## Introduction
 
 The Simple Shell project is an implementation of a basic command-line interpreter written in C. It allows users to enter commands and execute them, providing access to various operating system services.
+
+
+## What is a shell?
+A shell is a command interpreter; a program that provides a user interface to access and interact with an operating system. In simple terms, the shell acts as an intermediary between the user and the operating system.
+
+This program offers a command-line interface for executing programs or using various utilities within the operating system. It's responsible for interpreting commands and generating OS actions based on each individual's requirements.
+
+
+## How does it work?
+When a user enters a command in the shell, it analyzes the input to determine what action should be taken and then calls the corresponding program to perform the requested task. In other words, it reads the user-entered commands and executes them.
+
+It has a command-line syntax that allows the user to input commands and options to perform a variety of tasks within the operating system. The commands can be executable programs, scripts, or internal commands provided by this interpreter.
+
+The shell can also utilize environment variables, which are used to store information about the operating system environment, such as system settings and file paths.
+
 
 
 ## Getting Started
